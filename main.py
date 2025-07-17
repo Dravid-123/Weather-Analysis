@@ -9,7 +9,7 @@ import time
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 
 # Config
-API_KEY = 'VF9KX6XQTK679DR8F63R2W329'
+API_KEY = ''
 CITIES = ['Mumbai', 'Delhi', 'Bangalore', 'Chennai', 'Kolkata']
 BASE_URL = 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{city}/today?unitGroup=metric&key={key}&include=hours'
 DB_CONNECTION_STRING = 'mssql+pyodbc://localhost/project?driver=SQL+Server+Native+Client+11.0&trusted_connection=yes'
